@@ -1,9 +1,10 @@
-![ProgSynth Logo](./images/logo.png)
+This repository contains the code for our paper : [WikiCoder: Learning to Write
+Knowledge-Powered Code](https://rdcu.be/dITGA).
 
---------------------------------------------------------------------------------
-[![Tests](https://github.com/nathanael-fijalkow/AutoSynth/actions/workflows/tests.yaml/badge.svg)](https://github.com/nathanael-fijalkow/AutoSynth/actions/workflows/tests.yaml)
+This is joint work of [Théo Matricon](theomath.github.io), [Nathanaël Fijalkow](https://nathanael-fijalkow.github.io/) and [Gaëtan Margueritte](https://github.com/gaetanmargueritte).
 
-ProgSynth is a high-level framework that enables to leverage program synthesis for other domains such as reinforcement learning or system design.
+It is based on an old version of [ProgSynth](https://github.com/Theomat/ProgSynth) our program synthesis tool.
+
 
 <!-- toc -->
 
