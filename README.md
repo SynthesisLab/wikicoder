@@ -1,19 +1,19 @@
 This repository contains the code for our paper : [WikiCoder: Learning to Write
-Knowledge-Powered Code](https://rdcu.be/dITGA).
+Knowledge-Powered Code](https://rdcu.be/dITGA) published in the proceedings to the [SPIN 2023 conference](https://spin-web.github.io/SPIN2023/).
 
-This is joint work of [Théo Matricon](theomath.github.io), [Nathanaël Fijalkow](https://nathanael-fijalkow.github.io/) and [Gaëtan Margueritte](https://github.com/gaetanmargueritte).
+This is joint work of [Théo Matricon](theomath.github.io), [Nathanaël Fijalkow](https://games-automata-play.com/) and [Gaëtan Margueritte](https://github.com/gaetanmargueritte).
 
-It is based on an old version of [ProgSynth](https://github.com/Theomat/ProgSynth) our program synthesis tool.
+It is based on [DeepSynth]([https://github.com/Theomat/DeepSynth](https://github.com/SynthesisLab/DeepSynth)) our program synthesis tool.
 
 
 <!-- toc -->
 
-- [More About ProgSynth](#more-about-progsynth)
+- [More About DeepSynth](#more-about-DeepSynth)
   - [Combining Deep Learning with Theoretical Guarantees](#combining-deep-learning-with-theoretical-guarantees)
   - [A Scalable Framework](#a-scalable-framework)
 - [Installation](#installation)
   - [From Source](#from-source)
-    - [Install ProgSynth](#install-progsynth)
+    - [Install DeepSynth](#install-DeepSynth)
 - [Documentation](#documentation)
 - [Troubleshooting](#troubleshooting)
 - [Examples](./examples)
@@ -22,9 +22,9 @@ It is based on an old version of [ProgSynth](https://github.com/Theomat/ProgSynt
 
 <!-- tocstop -->
 
-## More About ProgSynth
+## More About DeepSynth
 
-At a granular level, ProgSynth is a library that consists of the following components:
+At a granular level, DeepSynth is a library that consists of the following components:
 
 | Component | Description |
 | ---- | --- |
@@ -43,7 +43,7 @@ Elaborating Further:
 
 The advantage of "classic" algorithms are their theoretical guarantees.
 But many new deep learning based methods have emerged, they provide a tremendous efficiency but lose almost all theoretical guarantees.
-ProgSynth provides already implemented algorithms that combine both approaches to get the best of both worlds: speed and guarantees!
+DeepSynth provides already implemented algorithms that combine both approaches to get the best of both worlds: speed and guarantees!
 
 ### A Scalable Framework
 
@@ -59,9 +59,9 @@ For example, you can split probabilistic grammars into disjoint sub grammars to 
 
 If you are installing from source, you will need Python 3.7.1 or later.
 
-#### Install ProgSynth
+#### Install DeepSynth
 
-ProgSynth can be installed from source with `pip`, `conda` or `poetry`.
+DeepSynth can be installed from source with `pip`, `conda` or `poetry`.
 
 ```bash
 pip install .
@@ -92,7 +92,7 @@ There are some known issues:
 
 ## The Team
 
-ProgSynth is a project initiated by [Nathanaël Fijalkow](https://nathanael-fijalkow.github.io/) and joined by [Théo Matricon](https://theomat.github.io/).
+DeepSynth is a project initiated by [Nathanaël Fijalkow](https://games-automata-play.com/) and joined by [Théo Matricon](https://theomat.github.io/).
 
 Former:
 
@@ -100,4 +100,4 @@ Former:
 
 ## License
 
-ProgSynth has a MIT license, as found in the [LICENSE](LICENSE) file.
+DeepSynth has a MIT license, as found in the [LICENSE](LICENSE) file.
