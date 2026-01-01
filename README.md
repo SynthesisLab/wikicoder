@@ -3,7 +3,7 @@ Knowledge-Powered Code](https://rdcu.be/dITGA) published in the proceedings to t
 
 This is joint work of [Théo Matricon](theomath.github.io), [Nathanaël Fijalkow](https://games-automata-play.com/) and [Gaëtan Margueritte](https://github.com/gaetanmargueritte).
 
-It is based on [DeepSynth]([https://github.com/Theomat/DeepSynth](https://github.com/SynthesisLab/DeepSynth)) our program synthesis tool.
+It is based on [DeepSynth](https://github.com/SynthesisLab/DeepSynth), our program synthesis tool.
 
 
 <!-- toc -->
